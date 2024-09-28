@@ -1,17 +1,9 @@
-
-
-
-
 import java.util.Scanner;
 import java.util.random.*;
 
-
-
-
 public class guess_number {
     public static void main(String[] args) {
-        
-      
+    
         double n = Math.random();  // made because random is class. It always gives a double value,
         System.out.println(n*100); //if not multiply with 100 it give result in 0.9854,
 
@@ -35,12 +27,8 @@ public class guess_number {
             break;
 
           }
-
-
         }
         System.out.println("result is " + x);
-        
-
     }
     
 }
